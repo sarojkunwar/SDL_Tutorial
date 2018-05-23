@@ -143,7 +143,7 @@ void DrawStar(float cx, float cy, float radius, int numPoints)
 	glEnd();
 }
 
-void DrawLine(float cx, float cy) {
+void DrawLine(float cx, float cy) {//this is not so necessary
 	glEnableClientState(GL_COLOR_ARRAY);
 
 	glLineWidth(5.0f);
